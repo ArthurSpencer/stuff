@@ -11,12 +11,13 @@ def linear_search(sl,si):
         #end if
     #next
     return found_index
+#end public function
 
 def linear_search2[sl,si]
     index = 0
     found_index = -1
     found = False
-    while not found:
+    while not found and index < len(sl):
         if sl[index] == si:
               found_index = index
               found = True 
@@ -24,7 +25,7 @@ def linear_search2[sl,si]
             index = index + 1
     #end while
     return found_index
-#end function
+#end public function
 
 search_list = [5,8,13,7,6,9,3,1]
 print (search_list)
